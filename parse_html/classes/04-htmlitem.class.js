@@ -23,7 +23,7 @@ class HtmlItem{
     initCollection(){
         var collection = null;
         if(!Config.isLeaf(this.type_collection)){ // cuencas
-            collection = HtmlCollection.init(Config.get(this.type_collection,'name_child'));
+            collection = HtmlCollection.init(Config.get(this.type_collection,'name_child')); // subcuencas
         }
         this.collection = collection;
     }

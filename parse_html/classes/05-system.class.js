@@ -8,25 +8,25 @@ class System{
     static selected;
 
     static init(config){
-        Config.init(config);
-        System.process();
+        Config.init(config);    // init Config.data
+        System.process();       // init System.data
     }
 
     static reset(){
         MyStorage.reset();
         MyStorage.save('System.init',true);
-        System.process();
-        System.backup();
-        System.isComplete();
+        System.process();       // init System.data
+        System.backup();        // save System.data.export() in localStorage
+        System.isComplete();    // get nextSteps from localStorage -> System.recovery()
     }
     static next(){        
-        var step = System.moveNextStep();   // Me muevo al prox filtro, sino paso a rellenar 
+        var step = System.moveNextStep();   // from nextSteps -> update Dropdown filters -> move to the nextStep position
         if(!step){
             // debugger;
-            System.process();       // cargo el estado actual
-            System.syncronize();    // guardo anexo a memoria el estado actual
-            System.isComplete();
-            System.moveNextStep();   
+            System.process();       // init System.data -> from html structure
+            System.syncronize();    // marge System.data.export() into System.recovery() -> html => localStorage
+            System.isComplete();    // set nextSteps from localStorage -> System.recovery()
+            System.moveNextStep();  // from nextSteps -> update Dropdown filters  
         }
     }
 

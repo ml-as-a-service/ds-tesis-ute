@@ -48,18 +48,3 @@ class Config{
         return Config.data[name_parent];
     } 
 }
-
-/*
-Config.init(config);
-
-console.log('Config.data', Config.data);
-console.log('Config.getChild subcuencas', Config.getChild('subcuencas'));
-console.log('Config.getParent subcuencas', Config.getParent('subcuencas'));
-console.log('Config.isRoot subcuencas', Config.isRoot('subcuencas'));
-console.log('Config.isLeaf subcuencas', Config.isLeaf('subcuencas'));
-console.log('Config.isRoot cuencas', Config.isRoot('cuencas'));
-console.log('Config.isLeaf pasos', Config.isLeaf('pasos'));
-console.log('Config.steps', Config.steps);
-console.log('Config.get(subcuencas, ele_id)', Config.get('subcuencas', 'ele_id'));
-*/
-     
