@@ -12,6 +12,14 @@ class System{
         System.process();       // init System.data
     }
 
+    static run(){
+        if(!MyStorage.get('System.init')){
+            System.reset();
+        }
+
+        System.next();
+    }
+    
     static reset(){
         MyStorage.reset();
         MyStorage.save('System.init',true);
