@@ -1,0 +1,4031 @@
+{
+    "cuencas":{
+        "GTERRA": {
+            "id": "GTERRA",
+            "name": "Central Rincón del Bonete",
+            "_type": "cuenca",
+            "subcuencas": {
+                "SARNEGRO": {
+                    "id": "SARNEGRO",
+                    "name": "Alto Río Negro",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "PMAZAN": {
+                            "id": "PMAZAN",
+                            "name": "Paso Mazangano",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LAGUNAII": {
+                            "id": "LAGUNAII",
+                            "name": "Laguna II",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PAGUIAR": {
+                            "id": "PAGUIAR",
+                            "name": "Paso Aguiar",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PPEREI": {
+                            "id": "PPEREI",
+                            "name": "Paso Pereira",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PRAMIR": {
+                            "id": "PRAMIR",
+                            "name": "Paso Ramírez",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PLPIEDRAS": {
+                            "id": "PLPIEDRAS",
+                            "name": "Paso Las Piedras",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CARANORTE": {
+                            "id": "CARANORTE",
+                            "name": "Caraguatá Norte",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CARASUR": {
+                            "id": "CARASUR",
+                            "name": "Caraguatá Sur",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PYEGUAS": {
+                            "id": "PYEGUAS",
+                            "name": "Paso de las Yeguas",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "ACEGUA": {
+                            "id": "ACEGUA",
+                            "name": "Aceguá",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "NOBLIA": {
+                            "id": "NOBLIA",
+                            "name": "Pueblo Noblia",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SDIEGO": {
+                            "id": "SDIEGO",
+                            "name": "San Diego",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "MANGRU": {
+                            "id": "MANGRU",
+                            "name": "Mangrullo",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "BVISTA": {
+                            "id": "BVISTA",
+                            "name": "Buena Vista",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CENTUR": {
+                            "id": "CENTUR",
+                            "name": "Centurión",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "BMEDINA": {
+                            "id": "BMEDINA",
+                            "name": "Bañado de Medina",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "TISLAS": {
+                            "id": "TISLAS",
+                            "name": "Tres Islas",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CCUENTAS": {
+                            "id": "CCUENTAS",
+                            "name": "Cerro de la Cuentas",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PCARROS": {
+                            "id": "PCARROS",
+                            "name": "Paso de los Carros",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PARBOL": {
+                            "id": "PARBOL",
+                            "name": "Arbolito (Pereira)",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CCARMEN": {
+                            "id": "CCARMEN",
+                            "name": "Cuchilla del Carmen",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LJUNCO": {
+                            "id": "LJUNCO",
+                            "name": "Laguna del Junco",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "QUEBRA": {
+                            "id": "QUEBRA",
+                            "name": "Quebracho",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "FMUERTO": {
+                            "id": "FMUERTO",
+                            "name": "Fraile Muerto",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "TBOLICHE": {
+                            "id": "TBOLICHE",
+                            "name": "Tres Boliches",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PALLERO": {
+                            "id": "PALLERO",
+                            "name": "Palleros",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CFARRUCO": {
+                            "id": "CFARRUCO",
+                            "name": "Capilla Farruco",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CCHATO": {
+                            "id": "CCHATO",
+                            "name": "Cerro Chato",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "VICHA": {
+                            "id": "VICHA",
+                            "name": "Vichadero",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CERRILLADA": {
+                            "id": "CERRILLADA",
+                            "name": "Cerrillada",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "HOSPITAL": {
+                            "id": "HOSPITAL",
+                            "name": "Hospital",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMMELO": {
+                            "id": "EMMELO",
+                            "name": "E.M. Melo",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MAZAN": {
+                                    "id": "MAZAN",
+                                    "name": "Mazangano",
+                                    "_type": "paso"
+                                },
+                                "AGUIAR": {
+                                    "id": "AGUIAR",
+                                    "name": "Aguiar",
+                                    "_type": "paso"
+                                },
+                                "PEREI": {
+                                    "id": "PEREI",
+                                    "name": "Pereira",
+                                    "_type": "paso"
+                                },
+                                "PPIEDRAS": {
+                                    "id": "PPIEDRAS",
+                                    "name": "Paso Las Piedras",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                },
+                "SDTERRA": {
+                    "id": "SDTERRA",
+                    "name": "Directa Rincón del Bonete",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "EMBONETE": {
+                            "id": "EMBONETE",
+                            "name": "E.M. Bonete",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "ELIBERIA": {
+                            "id": "ELIBERIA",
+                            "name": "Est. La Iberia",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CARDOZO": {
+                            "id": "CARDOZO",
+                            "name": "Cardozo",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EOLAZO": {
+                            "id": "EOLAZO",
+                            "name": "Est. Olazo",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PRAMIR": {
+                            "id": "PRAMIR",
+                            "name": "Paso Ramírez",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SGREGO": {
+                            "id": "SGREGO",
+                            "name": "San Gregorio",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PSOLA": {
+                            "id": "PSOLA",
+                            "name": "Piedra Sola",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CURTINA": {
+                            "id": "CURTINA",
+                            "name": "Curtina",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PCUADRA": {
+                            "id": "PCUADRA",
+                            "name": "Paso de los Cuadrados",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CLARA": {
+                            "id": "CLARA",
+                            "name": "Clara",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PHONDO": {
+                            "id": "PHONDO",
+                            "name": "Paso Hondo",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PERALTA": {
+                            "id": "PERALTA",
+                            "name": "Peralta",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "ACHAR": {
+                            "id": "ACHAR",
+                            "name": "Achar",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LPALOMA": {
+                            "id": "LPALOMA",
+                            "name": "La Paloma",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CFARRUCO": {
+                            "id": "CFARRUCO",
+                            "name": "Capilla Farruco",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SJORGE": {
+                            "id": "SJORGE",
+                            "name": "San Jorge",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "BLANQUI": {
+                            "id": "BLANQUI",
+                            "name": "Blanquillo",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SGREGO": {
+                                    "id": "SGREGO",
+                                    "name": "San Gregorio de Polanco",
+                                    "_type": "paso"
+                                },
+                                "TMARDER": {
+                                    "id": "TMARDER",
+                                    "name": "Bonete Margen Derecha",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                },
+                "STACUA": {
+                    "id": "STACUA",
+                    "name": "Tacuarembó",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "ANSINA": {
+                            "id": "ANSINA",
+                            "name": "Ansina",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PCOELHO": {
+                            "id": "PCOELHO",
+                            "name": "Picada de Coelho",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PTOSCAS": {
+                            "id": "PTOSCAS",
+                            "name": "Paso de las Toscas",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PLAGUNA": {
+                            "id": "PLAGUNA",
+                            "name": "Paso Laguna",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LAGUNAII": {
+                            "id": "LAGUNAII",
+                            "name": "Laguna II",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "MDIAZ": {
+                            "id": "MDIAZ",
+                            "name": "Manuel Díaz",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CUÑAPIRU": {
+                            "id": "CUÑAPIRU",
+                            "name": "Cuñapirú",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CTRAVIE": {
+                            "id": "CTRAVIE",
+                            "name": "Cerro Travieso",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PMEDIO": {
+                            "id": "PMEDIO",
+                            "name": "Paso del Medio",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PCARRETA": {
+                            "id": "PCARRETA",
+                            "name": "Paso de las Carretas",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LUJAN": {
+                            "id": "LUJAN",
+                            "name": "Luján",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "COMBU": {
+                            "id": "COMBU",
+                            "name": "Cuchilla del Ombú",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PNOVIL": {
+                            "id": "PNOVIL",
+                            "name": "Paso de los Novillos",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SANJOAQUIN": {
+                            "id": "SANJOAQUIN",
+                            "name": "Aldea San Joaquín",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PCSAUCE": {
+                            "id": "PCSAUCE",
+                            "name": "Puntas de Cinco Sauces",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LHILERA": {
+                            "id": "LHILERA",
+                            "name": "La Hilera",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CSAUCES": {
+                            "id": "CSAUCES",
+                            "name": "Cinco Sauces",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CARANORTE": {
+                            "id": "CARANORTE",
+                            "name": "Caraguatá Norte",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CLARA": {
+                            "id": "CLARA",
+                            "name": "Clara",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CARASUR": {
+                            "id": "CARASUR",
+                            "name": "Caraguatá Sur",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "VEDEN": {
+                            "id": "VEDEN",
+                            "name": "Valle Edén",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EATAQUES": {
+                            "id": "EATAQUES",
+                            "name": "Est. Ataques",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "TRANQUE": {
+                            "id": "TRANQUE",
+                            "name": "Tranqueras",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PATAQUES": {
+                            "id": "PATAQUES",
+                            "name": "Paso Ataques",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "MCORRAL": {
+                            "id": "MCORRAL",
+                            "name": "Minas de Corrales",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "MOIRON": {
+                            "id": "MOIRON",
+                            "name": "Moirones",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "VICHA": {
+                            "id": "VICHA",
+                            "name": "Vichadero",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CPELADO": {
+                            "id": "CPELADO",
+                            "name": "Cerro Pelado",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LCALERA": {
+                            "id": "LCALERA",
+                            "name": "La Calera",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LPUENTE": {
+                            "id": "LPUENTE",
+                            "name": "La Puente",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMRIVERA": {
+                            "id": "EMRIVERA",
+                            "name": "E.M. Rivera",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMTACUA": {
+                            "id": "EMTACUA",
+                            "name": "E.M. Tacuarembó",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MDIAZ": {
+                                    "id": "MDIAZ",
+                                    "name": "Manuel Díaz",
+                                    "_type": "paso"
+                                },
+                                "CUNAPIRU": {
+                                    "id": "CUNAPIRU",
+                                    "name": "Cuñapirú",
+                                    "_type": "paso"
+                                },
+                                "BORRA": {
+                                    "id": "BORRA",
+                                    "name": "Borracho",
+                                    "_type": "paso"
+                                },
+                                "NOVIL": {
+                                    "id": "NOVIL",
+                                    "name": "Novillos",
+                                    "_type": "paso"
+                                },
+                                "COELHO": {
+                                    "id": "COELHO",
+                                    "name": "Coelho",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA1": {
+                                    "id": "LAGUNA1",
+                                    "name": "Laguna I",
+                                    "_type": "paso"
+                                },
+                                "LTOSCAS": {
+                                    "id": "LTOSCAS",
+                                    "name": "Las Toscas",
+                                    "_type": "paso"
+                                },
+                                "LAGUNA2": {
+                                    "id": "LAGUNA2",
+                                    "name": "Laguna II",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "BAYGO": {
+            "id": "BAYGO",
+            "name": "Central Baygorria",
+            "_type": "cuenca",
+            "subcuencas": {
+                "SDBAYGO": {
+                    "id": "SDBAYGO",
+                    "name": "Directa Baygorria",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "EITACURU": {
+                            "id": "EITACURU",
+                            "name": "Est. La Fé",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "FRANCIA": {
+                            "id": "FRANCIA",
+                            "name": "Est. Francia",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EROLON": {
+                            "id": "EROLON",
+                            "name": "Est. Rolón - Piquet",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "ELCANADA": {
+                            "id": "ELCANADA",
+                            "name": "Est. Las Cañadas",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CPALMA": {
+                            "id": "CPALMA",
+                            "name": "El Monumento",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "UBAYGO": {
+                            "id": "UBAYGO",
+                            "name": "UTE Baygorria",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "ESREAL": {
+                            "id": "ESREAL",
+                            "name": "Est. S. Real",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMBONETE": {
+                            "id": "EMBONETE",
+                            "name": "E.M. Bonete",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "ELIBERIA": {
+                            "id": "ELIBERIA",
+                            "name": "Est. La Iberia",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EOLAZO": {
+                            "id": "EOLAZO",
+                            "name": "Est. Olazo",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SALSI": {
+                            "id": "SALSI",
+                            "name": "Salsipuedes",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CREYLES": {
+                            "id": "CREYLES",
+                            "name": "Carlos Reyles",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMPTOROS": {
+                            "id": "EMPTOROS",
+                            "name": "E.M. Paso de los Toros",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SARNAVA": {
+                            "id": "SARNAVA",
+                            "name": "Sarandí de Navarro",
+                            "_type": "estacion",
+                            "pasos": {
+                                "PTOROS": {
+                                    "id": "PTOROS",
+                                    "name": "Paso de los Toros",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                },
+                "SSALSI": {
+                    "id": "SSALSI",
+                    "name": "Salsipuedes",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "EMQUADRO": {
+                            "id": "EMQUADRO",
+                            "name": "Est. M.J.Quadros",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SALSIR20": {
+                                    "id": "SALSIR20",
+                                    "name": "Salsipuedes Ruta 20",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EITACURU": {
+                            "id": "EITACURU",
+                            "name": "Est. La Fé",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SALSIR20": {
+                                    "id": "SALSIR20",
+                                    "name": "Salsipuedes Ruta 20",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "FRANCIA": {
+                            "id": "FRANCIA",
+                            "name": "Est. Francia",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SALSIR20": {
+                                    "id": "SALSIR20",
+                                    "name": "Salsipuedes Ruta 20",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SALSI": {
+                            "id": "SALSI",
+                            "name": "Salsipuedes",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SALSIR20": {
+                                    "id": "SALSIR20",
+                                    "name": "Salsipuedes Ruta 20",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SARBOL": {
+                            "id": "SARBOL",
+                            "name": "Arbolito (Salsipuedes)",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SALSIR20": {
+                                    "id": "SALSIR20",
+                                    "name": "Salsipuedes Ruta 20",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "TIATUC": {
+                            "id": "TIATUC",
+                            "name": "Tiatucurá",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SALSIR20": {
+                                    "id": "SALSIR20",
+                                    "name": "Salsipuedes Ruta 20",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PSOLA": {
+                            "id": "PSOLA",
+                            "name": "Piedra Sola",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SALSIR20": {
+                                    "id": "SALSIR20",
+                                    "name": "Salsipuedes Ruta 20",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PERALTA": {
+                            "id": "PERALTA",
+                            "name": "Peralta",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SALSIR20": {
+                                    "id": "SALSIR20",
+                                    "name": "Salsipuedes Ruta 20",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "PALMAR": {
+            "id": "PALMAR",
+            "name": "Central Constitución",
+            "_type": "cuenca",
+            "subcuencas": {
+                "SAGSUR": {
+                    "id": "SAGSUR",
+                    "name": "Arroyo Grande del Sur",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "PLUGO": {
+                            "id": "PLUGO",
+                            "name": "Paso de Lugo",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "MARIN": {
+                            "id": "MARIN",
+                            "name": "Marincho",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PSAUCE": {
+                            "id": "PSAUCE",
+                            "name": "Puntas del Sauce",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SADELA": {
+                            "id": "SADELA",
+                            "name": "Santa Adelaida",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMTRINI": {
+                            "id": "EMTRINI",
+                            "name": "E.M. Trinidad",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CPERDIDO": {
+                            "id": "CPERDIDO",
+                            "name": "Cuchilla del Perdido",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CORRAL": {
+                            "id": "CORRAL",
+                            "name": "Corralito",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "RODO": {
+                            "id": "RODO",
+                            "name": "Rodó",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SCATAL": {
+                            "id": "SCATAL",
+                            "name": "Santa Catalina",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CARDONA": {
+                            "id": "CARDONA",
+                            "name": "Cardona",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "ELTALA": {
+                            "id": "ELTALA",
+                            "name": "El Tala",
+                            "_type": "estacion",
+                            "pasos": {
+                                "LUGO": {
+                                    "id": "LUGO",
+                                    "name": "Lugo",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                },
+                "SDPALMAR": {
+                    "id": "SDPALMAR",
+                    "name": "Directa Constitución",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "UBAYGO": {
+                            "id": "UBAYGO",
+                            "name": "UTE Baygorria",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "PDELBOTE": {
+                            "id": "PDELBOTE",
+                            "name": "Paso del Bote",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "FELICIANO": {
+                            "id": "FELICIANO",
+                            "name": "Feliciano",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "PLUGO": {
+                            "id": "PLUGO",
+                            "name": "Paso de Lugo",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "MARIN": {
+                            "id": "MARIN",
+                            "name": "Marincho",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "EMPALMAR": {
+                            "id": "EMPALMAR",
+                            "name": "E.M. Palmar",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "LFGRECO": {
+                            "id": "LFGRECO",
+                            "name": "Las Flores Greco",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "EAGUILA": {
+                            "id": "EAGUILA",
+                            "name": "El Aguila",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "ELTALA": {
+                            "id": "ELTALA",
+                            "name": "El Tala",
+                            "_type": "estacion",
+                            "pasos": {}
+                        }
+                    }
+                },
+                "SRIOYI": {
+                    "id": "SRIOYI",
+                    "name": "Río Yí",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "PDELBOTE": {
+                            "id": "PDELBOTE",
+                            "name": "Paso del Bote",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "BARRAPORON": {
+                            "id": "BARRAPORON",
+                            "name": "Barra de Porongos",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CCHATO": {
+                            "id": "CCHATO",
+                            "name": "Cerro Chato",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "FELICIANO": {
+                            "id": "FELICIANO",
+                            "name": "Feliciano",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "VCARMEN": {
+                            "id": "VCARMEN",
+                            "name": "Villa Carmen",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CRRIUS": {
+                            "id": "CRRIUS",
+                            "name": "Col. Rossell y Rius",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SARYI": {
+                            "id": "SARYI",
+                            "name": "Sarandí del Yi",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "POLYI": {
+                            "id": "POLYI",
+                            "name": "Polanco del Yi",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "NPEREZ": {
+                            "id": "NPEREZ",
+                            "name": "Nico Perez",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "GONI": {
+                            "id": "GONI",
+                            "name": "Goñi",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PMACIEL": {
+                            "id": "PMACIEL",
+                            "name": "Puntas de Maciel",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PANTANO": {
+                            "id": "PANTANO",
+                            "name": "Pantanoso",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "DGALLINAL": {
+                            "id": "DGALLINAL",
+                            "name": "Dr. Gallinal",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "MANSAVI": {
+                            "id": "MANSAVI",
+                            "name": "Mansavillagra",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SARGRAN": {
+                            "id": "SARGRAN",
+                            "name": "Sarandí Grande",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CCOLOR": {
+                            "id": "CCOLOR",
+                            "name": "Cerro Colorado",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PORONGOS": {
+                            "id": "PORONGOS",
+                            "name": "Porongos - Aviación",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CHAMANGA": {
+                            "id": "CHAMANGA",
+                            "name": "Chamangá",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PINTOS": {
+                            "id": "PINTOS",
+                            "name": "Pintos",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMDURAZ": {
+                            "id": "EMDURAZ",
+                            "name": "E.M. Durazno",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMTRINI": {
+                            "id": "EMTRINI",
+                            "name": "E.M. Trinidad",
+                            "_type": "estacion",
+                            "pasos": {
+                                "SARDELYI": {
+                                    "id": "SARDELYI",
+                                    "name": "Sarandí del Yí",
+                                    "_type": "paso"
+                                },
+                                "POLADELYI": {
+                                    "id": "POLADELYI",
+                                    "name": "Polanco del Yí",
+                                    "_type": "paso"
+                                },
+                                "DURAZ": {
+                                    "id": "DURAZ",
+                                    "name": "Durazno",
+                                    "_type": "paso"
+                                },
+                                "BPORONGOS": {
+                                    "id": "BPORONGOS",
+                                    "name": "Barra de Porongos",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "BRNEGRO": {
+            "id": "BRNEGRO",
+            "name": "Bajo Río Negro",
+            "_type": "cuenca",
+            "subcuencas": {
+                "SDERURUG": {
+                    "id": "SDERURUG",
+                    "name": "Desemb. en Río Uruguay",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "EMMERCE": {
+                            "id": "EMMERCE",
+                            "name": "E.M. Mercedes",
+                            "_type": "estacion",
+                            "pasos": {
+                                "VSORIA": {
+                                    "id": "VSORIA",
+                                    "name": "Villa Soriano",
+                                    "_type": "paso"
+                                },
+                                "DOLORES": {
+                                    "id": "DOLORES",
+                                    "name": "Dolores (Río San Salvador)",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "CANITAS": {
+                            "id": "CANITAS",
+                            "name": "Cañitas",
+                            "_type": "estacion",
+                            "pasos": {
+                                "VSORIA": {
+                                    "id": "VSORIA",
+                                    "name": "Villa Soriano",
+                                    "_type": "paso"
+                                },
+                                "DOLORES": {
+                                    "id": "DOLORES",
+                                    "name": "Dolores (Río San Salvador)",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EJIDO": {
+                            "id": "EJIDO",
+                            "name": "Ejido",
+                            "_type": "estacion",
+                            "pasos": {
+                                "VSORIA": {
+                                    "id": "VSORIA",
+                                    "name": "Villa Soriano",
+                                    "_type": "paso"
+                                },
+                                "DOLORES": {
+                                    "id": "DOLORES",
+                                    "name": "Dolores (Río San Salvador)",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "VSORIA": {
+                            "id": "VSORIA",
+                            "name": "Villa Soriano",
+                            "_type": "estacion",
+                            "pasos": {
+                                "VSORIA": {
+                                    "id": "VSORIA",
+                                    "name": "Villa Soriano",
+                                    "_type": "paso"
+                                },
+                                "DOLORES": {
+                                    "id": "DOLORES",
+                                    "name": "Dolores (Río San Salvador)",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                },
+                "SMERCE": {
+                    "id": "SMERCE",
+                    "name": "Mercedes",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "EMYOUNG": {
+                            "id": "EMYOUNG",
+                            "name": "E.M. Young",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EMMERCE": {
+                            "id": "EMMERCE",
+                            "name": "E.M. Mercedes",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "SANGRAN": {
+                            "id": "SANGRAN",
+                            "name": "Sánchez Grande",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EJIDO": {
+                            "id": "EJIDO",
+                            "name": "Ejido",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "ACORTO": {
+                            "id": "ACORTO",
+                            "name": "Arroyo Corto",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "PALMITAS": {
+                            "id": "PALMITAS",
+                            "name": "Palmitas",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "EGANA": {
+                            "id": "EGANA",
+                            "name": "Egaña",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "RCOLOLO": {
+                            "id": "RCOLOLO",
+                            "name": "Rincón de Cololó",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "VDARWIN": {
+                            "id": "VDARWIN",
+                            "name": "Villa Darwin",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        },
+                        "LLAGUNA": {
+                            "id": "LLAGUNA",
+                            "name": "La Laguna",
+                            "_type": "estacion",
+                            "pasos": {
+                                "MERCE": {
+                                    "id": "MERCE",
+                                    "name": "Mercedes",
+                                    "_type": "paso"
+                                }
+                            }
+                        }
+                    }
+                },
+                "SYAPEYU": {
+                    "id": "SYAPEYU",
+                    "name": "Yapeyú",
+                    "_type": "subcuenca",
+                    "estaciones": {
+                        "MERINOS": {
+                            "id": "MERINOS",
+                            "name": "Merinos",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "EMYOUNG": {
+                            "id": "EMYOUNG",
+                            "name": "E.M. Young",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "EMPALMAR": {
+                            "id": "EMPALMAR",
+                            "name": "E.M. Palmar",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "PCRUZ": {
+                            "id": "PCRUZ",
+                            "name": "Paso de la Cruz",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "PMELLIZ": {
+                            "id": "PMELLIZ",
+                            "name": "Paso de los Mellizos",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "SARNAVA": {
+                            "id": "SARNAVA",
+                            "name": "Sarandí de Navarro",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "LFGRECO": {
+                            "id": "LFGRECO",
+                            "name": "Las Flores Greco",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "EAGUILA": {
+                            "id": "EAGUILA",
+                            "name": "El Aguila",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "VDARWIN": {
+                            "id": "VDARWIN",
+                            "name": "Villa Darwin",
+                            "_type": "estacion",
+                            "pasos": {}
+                        },
+                        "LLAGUNA": {
+                            "id": "LLAGUNA",
+                            "name": "La Laguna",
+                            "_type": "estacion",
+                            "pasos": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
