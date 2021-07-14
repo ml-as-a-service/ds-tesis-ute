@@ -6,16 +6,22 @@
 class System{
     static data;
     static selected;
+    static isSelenium;
 
     static init(config){
         Config.init(config);    // init Config.data
         System.process();       // init System.data
     }
 
-    static run(){
+    static run(isSelenium){
+        System.isSelenium = isSelenium;
+        //System.seleniumInit();
+
         if(!MyStorage.get('System.init')){
             System.reset();
-        }
+        }else if(MyStorage.get('System.initSelenium')){
+            System.isComplete();
+        } 
 
         System.next();
     }
@@ -147,6 +153,27 @@ class System{
             }
         }
     }
+    
+    static popUp(val, id, style){
+        var _div = jQuery('<div id="'+id+'" style="'+style+'"><h1 style="color:white">'+val+'</h1></div>');
+        _div.appendTo(jQuery('body'));
+        _div.on('click',function(){
+            _div.remove();
+        })
+    }
+
+    static seleniumMarkNext(){
+        if(System.isSelenium){
+            var style = "z-index: 99999;position: absolute;top: 0;bottom: 0;opacity: 0.5;width: 100%;height: 100%;background: red;";
+            System.popUp('Processing .... move Nest Step ...', 'moveNextStep',style);
+        }
+    }
+    static seleniumInit(){
+        if(System.isSelenium){
+            var style = "z-index: 99999;position: absolute;top: 0;opacity: 0.5;width:300px;height:100px;background: green;";
+            System.popUp('Parsing Information ...', 'mgInit',style);
+        }
+    }
 
     static moveNextStep(){
         var nextSteps = MyStorage.get('nextSteps'); 
@@ -159,6 +186,7 @@ class System{
                 var ele_id = Config.get(ele,'ele_id');
                 // debugger;
                 System.updateNextSteps(name_item,'');
+                System.seleniumMarkNext();
                 System.getEle(ele).val(combo_id).change();
                 return combo_id;
                 break;
