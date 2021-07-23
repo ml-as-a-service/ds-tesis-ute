@@ -130,4 +130,5 @@ dmypy.json
 
 # DS-Tesis-UTE
 download/**/*.txt
+download/**/*.zip
 mytest.py 

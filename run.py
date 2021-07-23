@@ -14,6 +14,7 @@ import glob
 import mylib
 import pandas as pd
 from shutil import copyfile
+import sys 
  
 # Download Dir
 dir_path = os.path.abspath(os.getcwd())+'/download/'
@@ -41,7 +42,7 @@ driver = None
 def getDriver(year):
     dir_download = dir_path+'/ute/'+str(year)+'/'
     # os.rmdir(dir_download)
-    os.mkdir(dir_download)
+    # os.mkdir(dir_download)
 
     chromeOptions = webdriver.ChromeOptions()
     prefs = {"download.default_directory" : dir_download}
@@ -66,7 +67,7 @@ df = pd.read_csv(file_data_csv)
 driver = getDriver('20210714')
 # months = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"]
 months = ["Enero","Junio","Diciembre"]
-years = [*range(2000,2021)]
+years = [*range(2000,2010)]
 
 # def showFileCount():
 #     dir = dir_path+'/ute/20210714/'
@@ -98,35 +99,42 @@ for iy, y in enumerate(years):
         mylib.setTimeFilter(timeParams);
 
         for index, row in df.iterrows():
-            dst = dir_path_ute_data+"/{}-{}-{}-{}-{}-{}-{}-{}.txt".format(
-                y,m,y,months[im+1],
-                row["cuenca"],row["subcuenca"],row["estacion"],row["paso"]
-            )
-            if os.path.exists(dst):
-                print('Proccesed', dst)
-                continue
+            try:
+                print('progress....', df.shape, index,row["cuenca"],row["subcuenca"],row["estacion"],row["paso"])
+                
+                dst = dir_path_ute_data+"/{}-{}-{}-{}-{}-{}-{}-{}.txt".format(
+                    y,m,y,months[im+1],
+                    row["cuenca"],row["subcuenca"],row["estacion"],row["paso"]
+                )
+                if os.path.exists(dst):
+                    print('Proccesed', dst)
+                    continue
 
 
-            cuencaParameters = {
-                "driver": driver,
-                "cuenca": row["cuenca"],
-                "subcuenca": row["subcuenca"],
-                "estacion": row["estacion"],
-                "paso": row["paso"],                
-            }
-            mylib.setCuencaFilter(cuencaParameters)
-            
-            driver.execute_script(content_script)   
-            time.sleep(2)
+                cuencaParameters = {
+                    "driver": driver,
+                    "cuenca": row["cuenca"],
+                    "subcuenca": row["subcuenca"],
+                    "estacion": row["estacion"],
+                    "paso": row["paso"],                
+                }
+                mylib.setCuencaFilter(cuencaParameters)
+                
+                driver.execute_script(content_script)   
+                time.sleep(2)
 
-            print("\n\n------ download -------------------------------------------------\n")
-            print(timeParams)
-            print(cuencaParameters)
-            print(driver.execute_script('return System.getSelectedOptions();'))
+                print("\n\n------ download -------------------------------------------------\n")
+                print(timeParams)
+                print(cuencaParameters)
+                print(driver.execute_script('return System.getSelectedOptions();'))
 
-            mylib.download(driver)
-            src = showLastFileCreated()
-            copyfile(src, dst)
+                mylib.download(driver)
+                src = showLastFileCreated()
+                copyfile(src, dst)
+
+            except: 
+                e = sys.exc_info()[0]
+                print(e)
 
 
 
