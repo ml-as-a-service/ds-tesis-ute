@@ -90,7 +90,8 @@ def setCuencaFilter(params):
     drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboCuenca", option_value=cuenca, driver=driver)
     drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboSubcuenca", option_value=subcuenca, driver=driver)
     drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboEstacion", option_value=estacion, driver=driver)
-    drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboPasos", option_value=paso, driver=driver)
+    # remove paso filter #19
+    # drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboPasos", option_value=paso, driver=driver)
     
 def download(driver):    
     print("Download File .....")
