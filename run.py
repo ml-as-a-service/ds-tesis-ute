@@ -59,12 +59,17 @@ def getDriver(year):
 
     driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_optEmbalse").click()
     time.sleep(2)
+    # daily report #19
+    driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_chkAportes").click()
+    time.sleep(2)
+    driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_optDiarios").click()   
+    time.sleep(2)
     return driver
     
   
 df = pd.read_csv(file_data_csv) 
 
-driver = getDriver('20210714')
+driver = getDriver('20210724')
 # months = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"]
 months = ["Enero","Junio","Diciembre"]
 years = [*range(2000,2010)]
@@ -74,7 +79,7 @@ years = [*range(2000,2010)]
 #     print('-->showFileCount',dir, len([name for name in os.listdir(dir)]))
 
 def showLastFileCreated():
-    dir = dir_path+'/ute/20210714/'
+    dir = dir_path+'/ute/20210724/'
     list_of_files = glob.glob(dir+'*') # * means all if need specific format then *.csv
     latest_file = max(list_of_files, key=os.path.getctime)
     print(latest_file)   
