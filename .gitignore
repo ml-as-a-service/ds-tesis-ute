@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 # DS-Tesis-UTE
-download/*.txt
+download/**/*.txt
+download/**/*.zip
 mytest.py 

@@ -12,13 +12,37 @@ import os
 import mylib
 import json
 
+import numpy as np
+
 def drowpdown_select(el_id, option_value, driver):
-    xpath = '//*[@id="'+str(el_id)+'"]/option[. ="'+str(option_value)+'"]'
+    xpath = '//*[@id="'+str(el_id)+'"]'
     # print('xpath', xpath)
     option = driver.find_element(By.XPATH, xpath)
-    option.click()
-    wait = WebDriverWait(driver, 20)
-    wait.until(EC.element_to_be_clickable((By.ID, el_id)))    
+    val_option = option.get_attribute('text')
+
+    if( val_option != option_value):
+        xpath = '//*[@id="'+str(el_id)+'"]/option[. ="'+str(option_value)+'"]'
+        # print('xpath', xpath)
+        option = driver.find_element(By.XPATH, xpath)
+        option.click()
+        wait = WebDriverWait(driver, 20)
+        wait.until(EC.element_to_be_clickable((By.ID, el_id)))   
+        time.sleep(np.random.randint(3,5))  
+
+def drowpdown_select_byvalue(el_id, option_value, driver):
+    xpath = '//*[@id="'+str(el_id)+'"]'
+    option = driver.find_element(By.XPATH, xpath)
+    # print('xpath', xpath)
+    val_option = option.get_attribute('value')
+
+    if( val_option != option_value):
+        xpath = '//*[@id="'+str(el_id)+'"]/option[@value="'+str(option_value)+'"]'
+        option = driver.find_element(By.XPATH, xpath)
+        option.click()
+        wait = WebDriverWait(driver, 20)
+        wait.until(EC.element_to_be_clickable((By.ID, el_id)))  
+        time.sleep(np.random.randint(3,5))  
+
 
 def file_put_contents(filename, content):
     with open(filename, 'w') as f_in: 
@@ -28,12 +52,13 @@ def file_get_contents(filename):
     with open(filename, 'r') as f_in: 
         return f_in.read()
 
-
-def mydownload(driver, cboAnioIni,cboMesIni, cboAnioFin,cboMesFin):
+def setTimeFilter(params):
+    # print('setTimeFilter', params)
+    driver = params['driver']      
     # ------------------------------------------------------------
     # Filter To Date
-    # cboAnioFin = '1994'
-    # cboMesFin = 'Marzo'
+    cboAnioFin = params['cboAnioFin'] #'1994'
+    cboMesFin = params['cboMesFin'] #'Marzo'
 
     # //*[@id="ctl00_ContentPlaceHolder1_cboAnioFin"]
     drowpdown_select(el_id="ctl00_ContentPlaceHolder1_cboAnioFin", option_value=cboAnioFin, driver=driver)
@@ -42,18 +67,38 @@ def mydownload(driver, cboAnioIni,cboMesIni, cboAnioFin,cboMesFin):
 
     # ------------------------------------------------------------
     # Filter From Date
-    # cboAnioIni = '1994'
-    # cboMesIni = 'Enero'
+    cboAnioIni = params['cboAnioIni'] #'1994'
+    cboMesIni = params['cboMesIni'] #'Enero'
 
     # //*[@id="ctl00_ContentPlaceHolder1_cboAnioIni"]
     drowpdown_select(el_id="ctl00_ContentPlaceHolder1_cboAnioIni", option_value=cboAnioIni, driver=driver)
     drowpdown_select(el_id="ctl00_ContentPlaceHolder1_cboMesIni", option_value=cboMesIni, driver=driver)
 
+
+
+def setCuencaFilter(params):
+    # print('setCuencaFilter', params)
+    driver = params['driver'] 
+    cuenca = params['cuenca'] 
+    subcuenca = params['subcuenca'] 
+    estacion = params['estacion'] 
+    paso = params['paso']  
+
     # ------------------------------------------------------------
     # Download the file   
-    time.sleep(2)
-    # driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_cmdDescargar").click()  
-    print('bajarmos............')
+    time.sleep(np.random.randint(2,6))
+    drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboCuenca", option_value=cuenca, driver=driver)
+    drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboSubcuenca", option_value=subcuenca, driver=driver)
+    drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboEstacion", option_value=estacion, driver=driver)
+    drowpdown_select_byvalue(el_id="ctl00_ContentPlaceHolder1_cboPasos", option_value=paso, driver=driver)
+    
+def download(driver):    
+    print("Download File .....")
+    time.sleep(np.random.randint(2,6))
+    driver.find_element(By.ID, "ctl00_ContentPlaceHolder1_cmdDescargar").click()  
+    # TODO: REVISAR EN LA CARPTA DE DESCARGA SI HAY UN ARCHIVO MAS
+    time.sleep(np.random.randint(5,15))
+    
 
 
 
