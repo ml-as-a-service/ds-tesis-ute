@@ -43,3 +43,9 @@ Create the dataset download/data_latlon.csv
 ```bash
 python complete_lat_lon.py
 ```
+# Generate data 
+Create the dataset download/ute/csv/*.csv
+
+```bash
+python gen_estacion_latlon.py
+```
