@@ -29,3 +29,17 @@ pip install pipreqs
 # in the parent folder
 pipreqs ds-tesis-ute
 ```
+
+
+# Get Latitud and Longitud for Estaciones
+Create the dataset download/MapaEstHid.csv 
+
+```bash
+python get_lat_lon_estaciones.py
+```
+# Create data with Latitud and Longitud for Estaciones
+Create the dataset download/data_latlon.csv
+
+```bash
+python complete_lat_lon.py
+```
