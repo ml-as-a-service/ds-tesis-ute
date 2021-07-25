@@ -131,4 +131,6 @@ dmypy.json
 # DS-Tesis-UTE
 download/**/*.txt
 download/**/*.zip
+
+download/ute/**/*.csv
 mytest.py 

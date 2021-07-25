@@ -14,6 +14,40 @@ import json
 
 import numpy as np
 
+import pandas as pd
+from datetime import datetime
+from datetime import timedelta
+
+def gen_estacion_latlon(file_name, file_name_out):
+    dateparse = lambda x: datetime.strptime(x, '%d/%m/%Y') # %Y-%m-%d %H:%M:%S
+    # 01/01/2000; 700; Central Baygorria; Directa Baygorria; Local Baygorria; El Monumento ;  ; 
+    # file_name = 'download/ute/data/2000-Enero-2000-Junio-BAYGO-SDBAYGO-CPALMA-PTOROS.txt'
+    # file_name_out = 'download/ute/csv/2000-Enero-2000-Junio-BAYGO-SDBAYGO-CPALMA-PTOROS.csv'
+
+    # cuenca_id,cuenca_name,subcuenca_id,subcuenca_name,estacion_id,estacion_name,lat,lon,type
+    file_data_lat_lon = "download/data_latlon.csv"
+    df_lat_lon = pd.read_csv(file_data_lat_lon)
+    df_lat_lon.drop(['cuenca_id','cuenca_name','subcuenca_id','subcuenca_name'], inplace=True, axis=1)
+
+    col_names = ['date','hour','cuenca','subcuenca','x1','estacion','precipitacion','x2']
+    df = pd.read_csv(file_name,
+                    names=col_names,sep=";",skiprows=2,
+                    parse_dates=["date"],date_parser=dateparse)
+
+    df['dt'] = df['date'].astype(str) +' '+ df['hour'].apply(str).str[:-2] +':00:00' # pd.DateOffset(hours=df['hour']/100) #timedelta(2)
+    df['dt'] = pd.to_datetime(df['dt'])
+
+    # df['estacion'] = df['estacion'].str.strip()
+    df_obj = df.select_dtypes(['object'])
+    df[df_obj.columns] = df_obj.apply(lambda x: x.str.strip())
+
+    df.drop(['date','hour' ], inplace=True, axis=1)
+
+    # export 
+    df_estacion_latlon = df.join(df_lat_lon.set_index('estacion_name'),on="estacion")
+    df_estacion_latlon.to_csv(file_name_out, index=False)
+
+
 def drowpdown_select(el_id, option_value, driver):
     xpath = '//*[@id="'+str(el_id)+'"]'
     # print('xpath', xpath)
