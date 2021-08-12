@@ -69,10 +69,15 @@ def getDriver(year):
   
 df = pd.read_csv(file_data_csv) 
 
+df.drop(['paso'], inplace=True, axis=1)
+df.drop_duplicates(subset=None, inplace=True)
+df['paso']='paso'
+
+
 driver = getDriver('20210724')
 # months = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"]
 months = ["Enero","Junio","Diciembre"]
-years = [*range(2000,2010)]
+years = [*range(2016,2020)]
 
 # def showFileCount():
 #     dir = dir_path+'/ute/20210714/'
@@ -105,7 +110,8 @@ for iy, y in enumerate(years):
 
         for index, row in df.iterrows():
             try:
-                print('progress....', df.shape, index,row["cuenca"],row["subcuenca"],row["estacion"],row["paso"])
+                count_download = count_download + 1
+                print('progress....', df.shape, count_download,row["cuenca"],row["subcuenca"],row["estacion"],row["paso"])
                 
                 dst = dir_path_ute_data+"/{}-{}-{}-{}-{}-{}-{}-{}.txt".format(
                     y,m,y,months[im+1],
