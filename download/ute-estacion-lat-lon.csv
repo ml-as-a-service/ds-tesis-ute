@@ -1,0 +1,150 @@
+cuenca_id,cuenca_name,subcuenca_id,subcuenca_name,estacion_id,estacion_name,lat,lon,type
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,CPALMA,El Monumento,-32.750861,-56.784639,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,CREYLES,Carlos Reyles,-33.061111,-56.470083,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,EITACURU,Est. La Fé,-32.539333,-56.644167,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,ELCANADA,Est. Las Cañadas,-32.569389,-56.630639,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,ELIBERIA,Est. La Iberia,-32.872861,-56.283944,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,EMBONETE,E.M. Bonete,-32.833333,-56.423333,EstAut
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,EMPTOROS,E.M. Paso de los Toros,-32.798694,-56.528833,EstAut
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,EOLAZO,Est. Olazo,-32.717361,-56.456528,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,EROLON,Est. Rolón - Piquet,-32.675167,-56.897944,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,ESREAL,Est. S. Real,-32.946556,-56.628028,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,FRANCIA,Est. Francia,-32.543528,-56.624833,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,SALSI,Salsipuedes,-32.647778,-56.592111,EstAut
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,SARNAVA,Sarandí de Navarro,-32.542389,-56.861667,PluvConv
+BAYGO,Central Baygorria,SDBAYGO,Directa Baygorria,UBAYGO,UTE Baygorria,-32.874333,-56.80625,EstAut
+BAYGO,Central Baygorria,SSALSI,Salsipuedes,EITACURU,Est. La Fé,-32.539333,-56.644167,PluvConv
+BAYGO,Central Baygorria,SSALSI,Salsipuedes,EMQUADRO,Est. M.J.Quadros,-32.372806,-56.391611,PluvConv
+BAYGO,Central Baygorria,SSALSI,Salsipuedes,FRANCIA,Est. Francia,-32.543528,-56.624833,PluvConv
+BAYGO,Central Baygorria,SSALSI,Salsipuedes,PERALTA,Peralta,-32.494444,-56.355056,PluvConv
+BAYGO,Central Baygorria,SSALSI,Salsipuedes,PSOLA,Piedra Sola,-32.082167,-56.308139,EstAut
+BAYGO,Central Baygorria,SSALSI,Salsipuedes,SALSI,Salsipuedes,-32.647778,-56.592111,EstAut
+BAYGO,Central Baygorria,SSALSI,Salsipuedes,SARBOL,Salsipuedes,-32.647778,-56.592111,EstAut
+BAYGO,Central Baygorria,SSALSI,Salsipuedes,TIATUC,Tiatucurá,-32.312972,-56.494556,PluvConv
+BRNEGRO,Bajo Río Negro,SDERURUG,Desemb. en Río Uruguay,CANITAS,Cañitas,-33.161028,-58.237,PluvConv
+BRNEGRO,Bajo Río Negro,SDERURUG,Desemb. en Río Uruguay,EJIDO,Ejido,-33.278639,-57.974167,PluvConv
+BRNEGRO,Bajo Río Negro,SDERURUG,Desemb. en Río Uruguay,EMMERCE,E.M. Mercedes,-33.250417,-58.068611,EstAut
+BRNEGRO,Bajo Río Negro,SDERURUG,Desemb. en Río Uruguay,VSORIA,Villa Soriano,-33.390889,-58.318111,EstAut
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,ACORTO,Arroyo Corto,-33.239917,-57.784139,PluvConv
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,EGANA,Egaña,-33.602639,-57.631583,PluvConv
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,EJIDO,Ejido,-33.278639,-57.974167,PluvConv
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,EMMERCE,E.M. Mercedes,-33.250417,-58.068611,EstAut
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,EMYOUNG,E.M. Young,-32.68625,-57.649417,PluvConv
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,LLAGUNA,La Laguna,-33.203278,-57.575639,PluvConv
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,PALMITAS,Palmitas,-33.507639,-57.798278,PluvConv
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,RCOLOLO,Rincón de Cololó,-33.063111,-57.900222,PluvConv
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,SANGRAN,Sánchez Grande,-32.833583,-57.732528,PluvConv
+BRNEGRO,Bajo Río Negro,SMERCE,Mercedes,VDARWIN,Villa Darwin,-33.12175,-57.639417,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,ACEGUA,Aceguá,-31.874111,-54.161,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,BMEDINA,Bañado de Medina,-32.402167,-54.349556,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,BVISTA,Buena Vista,-32.128667,-54.159167,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,CARANORTE,Caraguatá Norte,-32.1215,-54.900528,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,CARASUR,Caraguatá Sur,-32.245194,-54.992583,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,CCARMEN,Cuchilla del Carmen,-32.719861,-55.0325,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,CCHATO,Cerro Chato,-33.099556,-55.142222,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,CCUENTAS,Cerro de la Cuentas,-32.618528,-54.593194,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,CENTUR,Centurión,-32.145583,-53.787972,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,CERRILLADA,Cerrillada,-31.436028,-54.722,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,CFARRUCO,Capilla Farruco,-32.838778,-55.518639,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,EMMELO,E.M. Melo,-32.367306,-54.192306,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,FMUERTO,Fraile Muerto,-32.512056,-54.523639,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,HOSPITAL,Hospital,-31.656611,-54.622444,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,LAGUNAII,Laguna II,-32.344028,-55.46425,EstAut
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,LJUNCO,Laguna del Junco,-32.72825,-54.90225,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,MANGRU,Mangrullo,-32.098583,-54.048278,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,NOBLIA,Pueblo Noblia,-31.955917,-54.123667,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PAGUIAR,Paso Aguiar,-32.285056,-54.841,EstAut
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PALLERO,Palleros,-32.078083,-54.484917,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PARBOL,Pereira,,,
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PCARROS,Paso de los Carros,-32.565083,-54.373361,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PLPIEDRAS,Paso Las Piedras,-32.450944,-55.446306,EstAut
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PMAZAN,Paso Mazangano,-32.107333,-54.674222,EstAut
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PPEREI,Paso Pereira,-32.443472,-55.22625,EstAut
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PRAMIR,Paso Ramírez,-32.537194,-55.502861,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,PYEGUAS,Paso de las Yeguas,-31.913278,-54.309194,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,QUEBRA,Quebracho,-32.602611,-54.721361,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,SDIEGO,San Diego,-31.994139,-53.954722,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,TBOLICHE,Tres Boliches,-32.281944,-54.162889,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,TISLAS,Tres Islas,-32.514861,-54.688389,PluvConv
+GTERRA,Central Rincón del Bonete,SARNEGRO,Alto Río Negro,VICHA,Vichadero,-31.778917,-54.6915,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,ACHAR,Achar,-32.404028,-56.180722,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,BLANQUI,Blanquillo,-32.886528,-55.620139,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,CARDOZO,Cardozo,-32.657889,-56.287667,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,CFARRUCO,Capilla Farruco,-32.838778,-55.518639,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,CLARA,Clara,-32.223417,-55.731333,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,CURTINA,Curtina,-32.145667,-56.113139,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,ELIBERIA,Est. La Iberia,-32.872861,-56.283944,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,EMBONETE,E.M. Bonete,-32.833333,-56.423333,EstAut
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,EOLAZO,Est. Olazo,-32.717361,-56.456528,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,LPALOMA,La Paloma,-32.730139,-55.5745,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,PCUADRA,Paso de los Cuadrados,-32.167778,-55.947139,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,PERALTA,Peralta,-32.494444,-56.355056,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,PHONDO,Paso Hondo,-32.286583,-55.840306,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,PRAMIR,Paso Ramírez,-32.537194,-55.502861,PluvConv
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,PSOLA,Piedra Sola,-32.082167,-56.308139,EstAut
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,SGREGO,San Gregorio,-32.620611,-55.829167,EstAut
+GTERRA,Central Rincón del Bonete,SDTERRA,Directa Rincón del Bonete,SJORGE,San Jorge,-32.842583,-55.897028,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,ANSINA,Ansina,-31.876361,-55.467444,EstAut
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,CARANORTE,Caraguatá Norte,-32.1215,-54.900528,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,CARASUR,Caraguatá Sur,-32.245194,-54.992583,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,CLARA,Clara,-32.223417,-55.731333,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,COMBU,Cuchilla del Ombú,-31.760667,-55.697833,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,CPELADO,Cerro Pelado,-31.472686,-55.149511,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,CSAUCES,Cinco Sauces,-32.083611,-55.194417,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,CTRAVIE,Cerro Travieso,-31.455556,-56.256972,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,CUÑAPIRU,Cuñapirú,-31.529722,-55.584167,EstAut
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,EATAQUES,Est. Ataques,-31.095389,-55.687,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,EMRIVERA,E.M. Rivera,-30.896472,-55.542417,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,EMTACUA,E.M. Tacuarembó,-31.705972,-55.991028,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,LAGUNAII,Laguna II,-32.344028,-55.46425,EstAut
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,LCALERA,La Calera,-31.394,-55.394444,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,LHILERA,La Hilera,-32.077972,-55.659806,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,LPUENTE,La Puente,-31.468,-54.9615,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,LUJAN,Luján,-31.65425,-56.152028,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,MCORRAL,Minas de Corrales,-31.573222,-55.473778,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,MDIAZ,Manuel Díaz,-31.528028,-55.684333,EstAut
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,MOIRON,Moirones,-31.602639,-54.976111,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,PATAQUES,Paso Ataques,-31.201083,-55.362194,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,PCARRETA,Paso de las Carretas,-31.590444,-56.072306,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,PCOELHO,Picada de Coelho,-32.039444,-55.360694,EstAut
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,PCSAUCE,Puntas de Cinco Sauces,-31.954972,-55.039056,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,PLAGUNA,Paso Laguna,-32.250361,-55.422083,EstAut
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,PMEDIO,Paso del Medio,-31.45675,-56.072222,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,PNOVIL,Paso de los Novillos,-31.972806,-55.671389,EstAut
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,PTOSCAS,Paso de las Toscas,-32.156861,-55.026306,EstAut
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,SANJOAQUIN,Aldea San Joaquín,-31.959417,-55.810861,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,TRANQUE,Tranqueras,-31.190778,-55.764944,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,VEDEN,Valle Edén,-31.823972,-56.174611,PluvConv
+GTERRA,Central Rincón del Bonete,STACUA,Tacuarembó,VICHA,Vichadero,-31.778917,-54.6915,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,CARDONA,Cardona,-33.872417,-57.369972,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,CORRAL,Corralito,-33.82875,-57.788056,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,CPERDIDO,Cuchilla del Perdido,-33.709778,-57.264917,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,ELTALA,El Tala,-33.229222,-57.398861,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,EMTRINI,E.M. Trinidad,-33.536528,-56.915722,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,MARIN,Marincho,-33.384417,-57.163583,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,PLUGO,Paso de Lugo,-33.253222,-57.260083,EstAut
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,PSAUCE,Puntas del Sauce,-33.829583,-57.016167,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,RODO,Rodó,-33.69675,-57.531806,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,SADELA,Santa Adelaida,-33.768028,-57.150056,PluvConv
+PALMAR,Central Constitución,SAGSUR,Arroyo Grande del Sur,SCATAL,Santa Catalina,-33.7915,-57.49175,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,BARRAPORON,Barra de Porongos,-33.250556,-56.815556,EstAut
+PALMAR,Central Constitución,SRIOYI,Río Yí,CCHATO,Cerro Chato,-33.099556,-55.142222,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,CCOLOR,Cerro Colorado,-33.862556,-55.549194,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,CHAMANGA,Chamangá,-33.714333,-56.668528,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,CRRIUS,Col. Rossell y Rius,-33.184528,-55.696778,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,DGALLINAL,Dr. Gallinal,-33.660444,-55.793972,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,EMDURAZ,E.M. Durazno,-33.351056,-56.502,EstAut
+PALMAR,Central Constitución,SRIOYI,Río Yí,EMTRINI,E.M. Trinidad,-33.536528,-56.915722,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,FELICIANO,Feliciano,-33.186444,-56.808694,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,GONI,Goñi,-33.519167,-56.413472,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,MANSAVI,Mansavillagra,-33.617778,-55.470806,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,NPEREZ,Nico Perez,-33.480639,-55.153083,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,PANTANO,Pantanoso,-33.527389,-55.955833,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,PDELBOTE,Paso del Bote,-33.170583,-56.844389,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,PINTOS,Pintos,-33.878972,-56.757194,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,PMACIEL,Puntas de Maciel,-33.622694,-56.362278,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,POLYI,Polanco del Yi,-33.390889,-56.156306,EstAut
+PALMAR,Central Constitución,SRIOYI,Río Yí,PORONGOS,Porongos - Aviación,-33.493389,-56.897528,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,SARGRAN,Sarandí Grande,-33.722306,-56.327417,PluvConv
+PALMAR,Central Constitución,SRIOYI,Río Yí,SARYI,Sarandí del Yi,-33.333111,-55.621,EstAut
+PALMAR,Central Constitución,SRIOYI,Río Yí,VCARMEN,Villa Carmen,-33.24175,-56.012222,PluvConv
